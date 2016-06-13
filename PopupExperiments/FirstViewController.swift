@@ -9,7 +9,8 @@
 import UIKit
 
 class FirstViewController: UIViewController {
-
+    
+    // MARK: UIViewController overrides
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -19,7 +20,15 @@ class FirstViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    // MARK: Button actions & handlers
+    @IBAction func didTapShowButton(sender: AnyObject) {
+        showPopUp()
+    }
+    
+    // MARK: Pup-up
+    func showPopUp() {
+        self.performSegueWithIdentifier("FirstPopUpSegue", sender: self)
+    }
 }
 

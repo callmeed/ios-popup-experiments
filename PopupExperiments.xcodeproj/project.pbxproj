@@ -13,6 +13,7 @@
 		C93175321D0DCE1E00542231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93175301D0DCE1E00542231 /* Main.storyboard */; };
 		C93175341D0DCE2000542231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93175331D0DCE2000542231 /* Assets.xcassets */; };
 		C93175371D0DCE2000542231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93175351D0DCE2000542231 /* LaunchScreen.storyboard */; };
+		C9F08A321D0E7D4500C32EE5 /* FirstPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F08A311D0E7D4500C32EE5 /* FirstPopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C93175331D0DCE2000542231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C93175361D0DCE2000542231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C93175381D0DCE2000542231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F08A311D0E7D4500C32EE5 /* FirstPopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				C931752A1D0DCE1E00542231 /* AppDelegate.swift */,
 				C931752C1D0DCE1E00542231 /* FirstViewController.swift */,
+				C9F08A311D0E7D4500C32EE5 /* FirstPopUpViewController.swift */,
 				C931752E1D0DCE1E00542231 /* SecondViewController.swift */,
 				C93175301D0DCE1E00542231 /* Main.storyboard */,
 				C93175331D0DCE2000542231 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F08A321D0E7D4500C32EE5 /* FirstPopUpViewController.swift in Sources */,
 				C931752F1D0DCE1E00542231 /* SecondViewController.swift in Sources */,
 				C931752B1D0DCE1E00542231 /* AppDelegate.swift in Sources */,
 				C931752D1D0DCE1E00542231 /* FirstViewController.swift in Sources */,
@@ -290,6 +294,7 @@
 				C931753D1D0DCE2000542231 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
