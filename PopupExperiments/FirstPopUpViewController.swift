@@ -35,6 +35,7 @@ class FirstPopUpViewController: UIViewController {
     func configureUI() {
         // In order to have a transparent background and see through 
         // to the presenting VC, these 2 settings are necessary on the view
+        // TIP: you can also use a color with alpha such as UIColor(colorLiteralRed: 0, green: 0, blue: 0, alpha: 0.5)
         view.backgroundColor = UIColor.clearColor()
         view.opaque = false
         // You can also perform optional decorations such as round corners & shadows
